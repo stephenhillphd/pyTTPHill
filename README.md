@@ -1,5 +1,8 @@
 # pyTTP
+
 🏈 A hybrid local search and MIP-heuristic for the **t**raveling **t**ournament **p**roblem.
+
+![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/jhelgert/pyTTP/master)
 
 This python package contains a simple hybrid local search and MIP-heuristic for 
 the traveling tournament problem.
