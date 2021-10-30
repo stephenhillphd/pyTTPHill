@@ -3,7 +3,7 @@
 from .localsearch import ttp_objective as objective
 
 
-def print_solution(schedule, teams: list[str]):
+def print_schedule(schedule, teams: list[str]):
     num_rounds = 2*len(teams) - 2
     print(f"Slot\t" + "\t".join(teams), end="\n\n")
     for s in range(num_rounds):
