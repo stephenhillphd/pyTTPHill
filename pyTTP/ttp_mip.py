@@ -3,6 +3,7 @@
 from mip import Model, xsum, MINIMIZE
 import itertools
 import numpy as np
+import gurobipy as gp
 
 
 class TTPMip:
