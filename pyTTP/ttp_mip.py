@@ -95,7 +95,7 @@ class TTPMip:
                                 for (i, j) in self.PairTeams for t in self.teams)
 
         # mip model object
-        self.mdl = Model("bla", sense=MINIMIZE, solver_name="Gurobi")
+        self.mdl = Model("bla", sense=MINIMIZE, solver_name="Gurobi", solver=gp.Solver(env=env))
 
         # -- variables --
 
